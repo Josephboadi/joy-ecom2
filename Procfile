@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn joyecommerce.wsgi
+web: gunicorn joyecommerce.wsgi --log-file -
